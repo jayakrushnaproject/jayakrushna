@@ -1,0 +1,35 @@
+package Assertclassmethods;
+
+import java.util.Set;
+
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class Assertcollectionvalidation 
+{
+	@Test
+	public void collectionValidation_Assert()
+	{
+	WebDriver driver=new ChromeDriver();
+	driver.get("https://www.google.com");
+	
+	Set<Cookie> alloldCookies=driver.manage().getCookies(); //4
+	
+	System.out.println(alloldCookies.size());
+	Cookie cookie=new Cookie("Sunanda", "Sunanda123");
+	driver.manage().addCookie(cookie);
+	Set<Cookie> allnewCookies = driver.manage().getCookies(); //5
+	System.out.println(allnewCookies.size());
+	Assert.assertNotEquals(allnewCookies, alloldCookies, "cookie is not added");
+	System.out.println("cookie is added");
+	System.out.println("-----------------------");
+	driver.manage().deleteCookieNamed("Sunanda");
+	Set<Cookie> allnewCookies1 = driver.manage().getCookies(); //4
+	Assert.assertNotEquals(allnewCookies1, allnewCookies, "cookie is not deleted");
+	System.out.println("cookie is deleted");
+}
+
+}

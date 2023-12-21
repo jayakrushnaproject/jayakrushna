@@ -1,0 +1,28 @@
+package Pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.FindBy;
+
+import Generics.Basepage;
+
+
+public class ActitimeHomePage extends Basepage
+{
+		public WebDriver driver;
+		 
+		@FindBy(id = "logoutLink")
+		private WebElement logountLink;
+		
+		public ActitimeHomePage(WebDriver driver)
+		{
+			this.driver=driver;
+			PageFactory.initElements(driver, this);
+		}
+		
+		public void logoutMethod() throws InterruptedException
+		{
+			waitVisibilityofElement(driver, logountLink);
+			javascriptHighlightElement(driver, logountLink);
+			javascriptClick(driver, logountLink);
+		}
+}

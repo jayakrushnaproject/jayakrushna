@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[execution started at suite tag level]]>
+    </line>
+    <line>
+      <![CDATA[execution started at test tag level]]>
+    </line>
+    <line>
+      <![CDATA[execution completed at test tag level]]>
+    </line>
+    <line>
+      <![CDATA[execution started at test tag level]]>
+    </line>
+    <line>
+      <![CDATA[execution completed at test tag level]]>
+    </line>
+    <line>
+      <![CDATA[execution started at test tag level]]>
+    </line>
+    <line>
+      <![CDATA[execution completed at test tag level]]>
+    </line>
+    <line>
+      <![CDATA[execution completed at suite tag level]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-19T16:43:54 IST" name="Suite" finished-at="2023-12-19T16:46:19 IST" duration-ms="145881">
+    <groups>
+    </groups>
+    <test started-at="2023-12-19T16:43:54 IST" name="ChromeTest" finished-at="2023-12-19T16:44:40 IST" duration-ms="46567">
+      <class name="com.testcases.ActiTIME.TC1_ActitimeLoginLogout">
+        <test-method is-config="true" signature="testExecutionStart()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@f6efaab]" started-at="2023-12-19T16:43:54 IST" name="testExecutionStart" finished-at="2023-12-19T16:43:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution started at test tag level]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExecutionStart -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@f6efaab]" started-at="2023-12-19T16:43:54 IST" name="setup" finished-at="2023-12-19T16:44:02 IST" duration-ms="8217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@f6efaab]" started-at="2023-12-19T16:44:02 IST" name="login" finished-at="2023-12-19T16:44:22 IST" duration-ms="19660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@f6efaab]" started-at="2023-12-19T16:44:22 IST" name="logout" finished-at="2023-12-19T16:44:39 IST" depends-on-methods="com.testcases.ActiTIME.TC1_ActitimeLoginLogout.login" duration-ms="17749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@f6efaab]" started-at="2023-12-19T16:44:39 IST" name="teardown" finished-at="2023-12-19T16:44:40 IST" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="testExecutionComplete()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@f6efaab]" started-at="2023-12-19T16:44:40 IST" name="testExecutionComplete" finished-at="2023-12-19T16:44:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution completed at test tag level]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExecutionComplete -->
+      </class> <!-- com.testcases.ActiTIME.TC1_ActitimeLoginLogout -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-12-19T16:44:40 IST" name="EdgeTest" finished-at="2023-12-19T16:45:24 IST" duration-ms="44295">
+      <class name="com.testcases.ActiTIME.TC1_ActitimeLoginLogout">
+        <test-method is-config="true" signature="testExecutionStart()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@5bf0d49]" started-at="2023-12-19T16:44:40 IST" name="testExecutionStart" finished-at="2023-12-19T16:44:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution started at test tag level]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExecutionStart -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@5bf0d49]" started-at="2023-12-19T16:44:40 IST" name="setup" finished-at="2023-12-19T16:45:00 IST" duration-ms="19488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@5bf0d49]" started-at="2023-12-19T16:45:00 IST" name="login" finished-at="2023-12-19T16:45:10 IST" duration-ms="10244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@5bf0d49]" started-at="2023-12-19T16:45:10 IST" name="logout" finished-at="2023-12-19T16:45:23 IST" depends-on-methods="com.testcases.ActiTIME.TC1_ActitimeLoginLogout.login" duration-ms="13136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@5bf0d49]" started-at="2023-12-19T16:45:23 IST" name="teardown" finished-at="2023-12-19T16:45:24 IST" duration-ms="1415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="testExecutionComplete()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@5bf0d49]" started-at="2023-12-19T16:45:24 IST" name="testExecutionComplete" finished-at="2023-12-19T16:45:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution completed at test tag level]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExecutionComplete -->
+      </class> <!-- com.testcases.ActiTIME.TC1_ActitimeLoginLogout -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2023-12-19T16:45:25 IST" name="FirefoxTest" finished-at="2023-12-19T16:46:19 IST" duration-ms="54916">
+      <class name="com.testcases.ActiTIME.TC1_ActitimeLoginLogout">
+        <test-method is-config="true" signature="suiteExecutionStart()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@557caf28]" started-at="2023-12-19T16:43:54 IST" name="suiteExecutionStart" finished-at="2023-12-19T16:43:54 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution started at suite tag level]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- suiteExecutionStart -->
+        <test-method is-config="true" signature="testExecutionStart()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@557caf28]" started-at="2023-12-19T16:45:25 IST" name="testExecutionStart" finished-at="2023-12-19T16:45:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution started at test tag level]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExecutionStart -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@557caf28]" started-at="2023-12-19T16:45:25 IST" name="setup" finished-at="2023-12-19T16:45:58 IST" duration-ms="33661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@557caf28]" started-at="2023-12-19T16:45:58 IST" name="login" finished-at="2023-12-19T16:46:08 IST" duration-ms="9437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@557caf28]" started-at="2023-12-19T16:46:08 IST" name="logout" finished-at="2023-12-19T16:46:16 IST" depends-on-methods="com.testcases.ActiTIME.TC1_ActitimeLoginLogout.login" duration-ms="8538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@557caf28]" started-at="2023-12-19T16:46:16 IST" name="teardown" finished-at="2023-12-19T16:46:19 IST" duration-ms="3269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="testExecutionComplete()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@557caf28]" started-at="2023-12-19T16:46:19 IST" name="testExecutionComplete" finished-at="2023-12-19T16:46:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution completed at test tag level]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testExecutionComplete -->
+        <test-method is-config="true" signature="suiteExecutionComplete()[pri:0, instance:com.testcases.ActiTIME.TC1_ActitimeLoginLogout@557caf28]" started-at="2023-12-19T16:46:19 IST" name="suiteExecutionComplete" finished-at="2023-12-19T16:46:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution completed at suite tag level]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- suiteExecutionComplete -->
+      </class> <!-- com.testcases.ActiTIME.TC1_ActitimeLoginLogout -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

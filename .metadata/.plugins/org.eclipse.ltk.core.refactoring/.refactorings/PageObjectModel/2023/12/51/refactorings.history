@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;jar&apos;&#x0D;&#x0A;- Original project: &apos;PageObjectModel&apos;&#x0D;&#x0A;- Destination element: &apos;jar&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     selenium-server-4.15.0.jar&#x0D;&#x0A;     selenium-server-standalone-3.141.59.jar&#x0D;&#x0A;     selenium-server-standalone-2.53.1.jar" description="Copy files" element1="Jars/selenium-server-4.15.0.jar" element2="Jars/selenium-server-standalone-3.141.59.jar" element3="Jars/selenium-server-standalone-2.53.1.jar" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1702809636458" target="/ExcelProject/jar" units="0" version="1.0"/>
+</session>
